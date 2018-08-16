@@ -1,0 +1,87 @@
+.list-header + .mn-1{
+	border-top: 1px solid #efefef;
+}
+
+.list-group .mn-1:last-of-type{
+	border-bottom: 1px solid #efefef;
+}
+
+.mn-1{
+	
+}
+
+.list-header.dmpl-module-gen{
+	background-color: #587da9; /*azul claro*/
+	color: #ffffff !important;
+	
+}
+
+.mn-1.dmpl-module-gen{
+	
+}
+
+.mn-1.dmpl-module-gen i, .mn-1.dmpl-module-gen span{
+	color: #587da9; /*azul claro*/
+}
+
+.list-header.dmpl-module-cad{
+	background-color: #8bc34a; /*verde*/
+	color: #ffffff !important;
+	
+}
+
+.mn-1.dmpl-module-cad{
+	
+}
+
+.mn-1.dmpl-module-cad i, .mn-1.dmpl-module-cad span{
+	color: #8bc34a; /*verde*/	
+}
+
+.list-header.dmpl-module-nor{
+	background-color: #03a9f4; /*azul*/
+	color: #ffffff !important;
+	
+}
+
+.mn-1.dmpl-module-nor{
+	
+}
+
+.mn-1.dmpl-module-nor i, .mn-1.dmpl-module-nor span{
+	color: #03a9f4; /*azul*/	
+}
+
+.list-header.dmpl-module-ind{
+	background-color: #ab47bc; /*roxo*/
+	color: #ffffff !important;
+	
+}
+
+.mn-1.dmpl-module-ind{
+	
+}
+
+.mn-1.dmpl-module-ind i, .mn-1.dmpl-module-ind span{
+	color: #ab47bc; /*roxo*/	
+}
+
+.list-header.dmpl-module-sos{
+	background-color: #ffb300; /*laranja*/
+	color: #ffffff !important;
+	
+}
+
+.mn-1.dmpl-module-sos{
+	
+}
+
+.mn-1.dmpl-module-sos i, .mn-1.dmpl-module-sos span{
+	color: #ffb300; /*laranja*/	
+}
+
+
+
+.mn-2{
+	
+}
