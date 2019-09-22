@@ -28,6 +28,8 @@
     <!--Pace - Page Load Progress Par [OPTIONAL]-->
     <?php echo $this->Html->css('/plugins/pace/pace.min'); ?>
 	<?php echo $this->Html->script('/plugins/pace/pace.min'); ?>
+	
+	<?php echo $this->Html->css('/plugins/switchery/switchery.min'); ?>
 
     <!--Demo [ DEMONSTRATION ]-->
     <?php echo $this->Html->css('demo/nifty-demo.min'); ?>
@@ -76,6 +78,9 @@
     
     <!--jQuery Cookie [ RECOMMENDED ]-->
     <?php echo $this->Html->script('/plugins/cookie/js.cookie'); ?>
+    
+    <!-- Switchery [ OPTIONAL ]-->
+    <?php echo $this->Html->script('/plugins/switchery/switchery.min'); ?>
     
     <!--Flot Chart [ OPTIONAL ]-->
     <?php echo $this->Html->script('/plugins/flot-charts/jquery.flot.min'); ?>

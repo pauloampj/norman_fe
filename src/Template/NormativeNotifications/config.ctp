@@ -4,19 +4,22 @@
 	<!--Page content-->
 	<!--===================================================-->
 	<div id="page-content">
-		<div class="panel">
-			<div class="panel-heading">
-				<h3 class="panel-title">Configurar Notificações</h3>
-			</div>
-
+		<ol class="breadcrumb pad-btm-20">
+			<li><a href="#"><i class="demo-pli-home"></i></a></li>
+			<li><a href="#">Normativos</a></li>
+			<li><a href="#">Notificações</a></li>
+			<li class="active">Configurar</li>
+		</ol>
+		<div class="row">
+		<div class="panel col-lg-6 col-lg-offset-3">
 			<!--Panel heading-->
 			<div class="panel-heading">
 				<div class="panel-control">
 					<ul class="nav nav-tabs">
-						<li class="active"><a href="#user-activities-box" data-toggle="tab">Bacen</a></li>
-						<li><a href="#user-basics-box" data-toggle="tab">Receita Federal</a></li>
-						<li><a href="#user-company-box" data-toggle="tab">Planalto</a></li>
-						<li><a href="#user-company-box" data-toggle="tab">Congresso</a></li>
+						<li class="active"><a href="#bacen-box" data-toggle="tab">Bacen</a></li>
+						<li><a href="#rfb-box" data-toggle="tab">Receita Federal</a></li>
+						<li><a href="#planalto-box" data-toggle="tab">Planalto</a></li>
+						<li><a href="#congress-box" data-toggle="tab">Congresso</a></li>
 					</ul>
 				</div>
 			</div>
@@ -24,63 +27,83 @@
 			<!--Panel body-->
 			<div class="panel-body">
 				<div class="tab-content">
-					<div class="tab-pane fade in active" id="user-activities-box">
-						<!-- Newsfeed Content -->
-						<!--===================================================-->
-						<div class="comments media-block">
-							<a class="media-left" href="#"><img class="img-circle img-sm"
-								alt="Profile Picture"
-								src="<?php echo $this->Url->build('/img/profile-photos/2.png');?>"></a>
-							<div class="media-body">
-								<div class="comment-header">
-									<a href="#"
-										class="media-heading box-inline text-main text-semibold">John
-										Doe</a> Share a status of <a href="#"
-										class="media-heading box-inline text-main text-semibold">Lucy
-										Doe</a>
-									<p class="text-muted text-sm">
-										<i class="demo-pli-smartphone-3 icon-lg"></i> - From Mobile -
-										26 min ago
-									</p>
-								</div>
-								<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
-									diam nonummy nibh euismod tincidunt</p>
-							</div>
+					<div class="tab-pane fade in active" id="bacen-box">
+						<div class="checkbox pad-rgt">
+							<label for="demo-form-checkbox">Enviar Normativos do Bacen</label>
+							<input type="checkbox" class="js-switch float-right" />
 						</div>
-						<!--===================================================-->
-						<!-- End Newsfeed Content -->
-
-						<!-- Newsfeed Content -->
-						<!--===================================================-->
-						<div class="comments media-block">
-							<a class="media-left" href="#"><img class="img-circle img-sm"
-								alt="Profile Picture"
-								src="<?php echo $this->Url->build('/img/profile-photos/2.png');?>"></a>
-							<div class="media-body">
-								<div class="comment-header">
-									<a href="#"
-										class="media-heading box-inline text-main text-semibold">John
-										Doe</a> Share a status of <a href="#"
-										class="media-heading box-inline text-main text-semibold">Lucy
-										Doe</a>
-									<p class="text-muted text-sm">
-										<i class="demo-pli-smartphone-3 icon-lg"></i> - From Mobile -
-										26 min ago
-									</p>
-								</div>
-								<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
-									diam nonummy nibh euismod tincidunt</p>
-							</div>
+						<hr>
+						<div class="checkbox pad-rgt">
+							<label for="demo-form-checkbox">Filtrar Por Tipo de Normativo</label>
+							<input type="checkbox" class="js-switch float-right" />
 						</div>
-						<!--===================================================-->
-						<!-- End Newsfeed Content -->
-						<hr class="new-section-md bord-no">
-						<button class="btn btn-primary btn-block mar-ver">Carregar mais</button>
+						<hr>
+						<div class="checkbox pad-rgt">
+							<input type="checkbox" class="js-switch float-right" />
+							<label for="demo-form-checkbox">Filtrar Por Palavra-Chave</label>
+						</div>
+						<hr>
+						<div class="checkbox pad-rgt">
+							<label for="demo-form-checkbox">Enviar Comunicados Referentes à Damaplan</label>
+							<input type="checkbox" class="js-switch float-right" />
+						</div>
+						<hr>
+						<div class="checkbox pad-rgt">
+							<label for="demo-form-checkbox">Enviar Novos Editais de Consulta Pública</label>
+							<input type="checkbox" class="js-switch float-right" />
+						</div>
 					</div>
-					<div class="tab-pane fade" id="user-basics-box">Dados básicos</div>
-					<div class="tab-pane fade" id="user-company-box">Dados da empresa</div>
+					<div class="tab-pane fade" id="rfb-box">
+						<div class="checkbox pad-rgt">
+							<label for="demo-form-checkbox">Enviar Normativos da Receita Federal</label>
+							<input type="checkbox" class="js-switch float-right" data-color="#489eed" />
+						</div>
+						<hr>
+						<div class="checkbox pad-rgt">
+							<label for="demo-form-checkbox">Filtrar Por Tipo de Normativo</label>
+							<input type="checkbox" class="js-switch float-right" data-color="#489eed" />
+						</div>
+						<hr>
+						<div class="checkbox pad-rgt">
+							<label for="demo-form-checkbox">Filtrar Por Palavra-Chave</label>
+							<input type="checkbox" class="js-switch float-right" data-color="#489eed" />
+						</div>
+					</div>
+					<div class="tab-pane fade" id="planalto-box">
+						<div class="checkbox pad-rgt">
+							<label for="demo-form-checkbox">Enviar Normativos do Planalto</label>
+							<input type="checkbox" class="js-switch float-right" data-color="#e33a4b" />
+						</div>
+						<hr>
+						<div class="checkbox pad-rgt">
+							<label for="demo-form-checkbox">Filtrar Por Tipo de Normativo</label>
+							<input type="checkbox" class="js-switch float-right" data-color="#e33a4b" />
+						</div>
+						<hr>
+						<div class="checkbox pad-rgt">
+							<label for="demo-form-checkbox">Filtrar Por Palavra-Chave</label>
+							<input type="checkbox" class="js-switch float-right" data-color="#e33a4b" />
+						</div>
+					</div>
+					<div class="tab-pane fade" id="congress-box">
+						<div class="checkbox pad-rgt">
+							<label for="demo-form-checkbox">Enviar Normativos do Congresso</label>
+							<input type="checkbox" class="js-switch float-right" data-color="#f0a238" />
+						</div>
+						<hr>
+						<div class="checkbox pad-rgt">
+							<label for="demo-form-checkbox">Filtrar Por Tipo de Normativo</label>
+							<input type="checkbox" class="js-switch float-right" data-color="#f0a238" />
+						</div>
+						<hr>
+						<div class="checkbox pad-rgt">
+							<label for="demo-form-checkbox">Filtrar Por Palavra-Chave</label>
+							<input type="checkbox" class="js-switch float-right" data-color="#f0a238" />
+						</div>
+					</div>
 				</div>
 			</div>
+		</div>
 		</div>
 	</div>
 	<!--===================================================-->

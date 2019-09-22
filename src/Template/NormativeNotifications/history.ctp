@@ -4,10 +4,14 @@
 	<!--Page content-->
 	<!--===================================================-->
 	<div id="page-content">
+		<ol class="breadcrumb pad-btm-20">
+			<li><a href="#"><i class="demo-pli-home"></i></a></li>
+			<li><a href="#">Normativos</a></li>
+			<li><a href="#">Notificações</a></li>
+			<li class="active">Histórico</li>
+		</ol>
+	
 		<div class="panel">
-			<div class="panel-heading">
-				<h3 class="panel-title">Histórico de Notificações</h3>
-			</div>
 
 			<!--Data Table-->
 			<!--===================================================-->

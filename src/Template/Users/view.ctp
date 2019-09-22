@@ -4,6 +4,12 @@
 	<!--Page content-->
 	<!--===================================================-->
 	<div id="page-content">
+		<ol class="breadcrumb pad-btm-20">
+			<li><a href="#"><i class="demo-pli-home"></i></a></li>
+			<li><a href="#">Usuários</a></li>
+			<li class="active">Ver</li>
+		</ol>
+
 		<div class="panel">
 			<div class="panel-body">
 				<div class="fixed-fluid">
@@ -18,23 +24,13 @@
 							</div>
 							<h4 class="text-lg text-overflow mar-no"><?php echo $user['Name']; ?></h4>
 							<p class="text-sm text-muted">Digital Marketing Director</p>
-
-							<div class="pad-ver btn-groups">
-								<a href="#"
-									class="btn btn-icon demo-pli-facebook icon-lg add-tooltip"
-									data-original-title="Facebook" data-container="body"></a> <a
-									href="#"
-									class="btn btn-icon demo-pli-twitter icon-lg add-tooltip"
-									data-original-title="Twitter" data-container="body"></a> <a
-									href="#"
-									class="btn btn-icon demo-pli-google-plus icon-lg add-tooltip"
-									data-original-title="Google+" data-container="body"></a> <a
-									href="#"
-									class="btn btn-icon demo-pli-instagram icon-lg add-tooltip"
-									data-original-title="Instagram" data-container="body"></a>
+							<hr>
+							<div class="list-group bg-trans">
+								<a class="list-group-item text-left" href="#"><i
+									class="pli-pencil icon-lg icon-fw"></i> Editar Perfil</a>
+								<a class="list-group-item text-left" href="#"><i
+									class="pli-mail-send icon-lg icon-fw"></i> Enviar Mensagem</a>
 							</div>
-							<button class="btn btn-block btn-success btn-lg">Editar Perfil</button>
-							<button class="btn btn-block btn-success btn-lg">Enviar Mensagem</button>
 						</div>
 						<hr>
 
@@ -47,8 +43,8 @@
 						</p>
 						<p>
 							<a href="#" class="btn-link"><i
-								class="demo-pli-internet icon-lg icon-fw"></i>
-								www.damaplan.com.br</a>
+								class="pli-mail icon-lg icon-fw"></i>
+								pauloampj@gmail.com</a>
 						</p>
 						<p>
 							<i class="demo-pli-old-telephone icon-lg icon-fw"></i>(51) 343
